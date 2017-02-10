@@ -1,38 +1,33 @@
 //
-//  CGHomeViewController.m
+//  CGCustomColorController.m
 //  ColorGuideApp
 //
-//  Created by victor on 2017/2/9.
+//  Created by victor on 2017/2/10.
 //  Copyright © 2017年 wsl. All rights reserved.
 //
 
-#import "CGHomeViewController.h"
 #import "CGCustomColorController.h"
-#import "CGNavigationController.h"
-@interface CGHomeViewController ()
+
+@interface CGCustomColorController ()
 
 @end
 
-@implementation CGHomeViewController
+@implementation CGCustomColorController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title=@"七色系";
+    // Do any additional setup after loading the view from its nib.
     UIButton *customColor=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 44)];
     [customColor setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [customColor setTitle:@"自定义" forState:UIControlStateNormal];
-    [customColor addTarget:self action:@selector(customColorOnClick) forControlEvents:UIControlEventTouchUpInside];
+    [customColor setTitle:@"返回" forState:UIControlStateNormal];
+    [customColor addTarget:self action:@selector(closecustomColorOnClick) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithCustomView:customColor];
- 
 }
 
 
-
--(void)customColorOnClick
+-(void)closecustomColorOnClick
 {
-    CGCustomColorController *homeCustomVc=[[CGCustomColorController alloc] init];
-    CGNavigationController *cgnavVc=[[CGNavigationController alloc] initWithRootViewController:homeCustomVc];
-    [self presentViewController:cgnavVc animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

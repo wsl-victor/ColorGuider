@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A68FD01E4D50260020D2A3 /* blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FCF1E4D50260020D2A3 /* blue.plist */; };
+		57A68FD21E4D50340020D2A3 /* orange.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FD11E4D50340020D2A3 /* orange.plist */; };
+		57A68FD51E4D503C0020D2A3 /* purple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FD31E4D503C0020D2A3 /* purple.plist */; };
+		57A68FD61E4D503C0020D2A3 /* red.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FD41E4D503C0020D2A3 /* red.plist */; };
+		57A68FD81E4D50490020D2A3 /* yellow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FD71E4D50490020D2A3 /* yellow.plist */; };
+		57A68FDA1E4D50550020D2A3 /* green.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FD91E4D50550020D2A3 /* green.plist */; };
+		57A68FDC1E4D50690020D2A3 /* neutral.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FDB1E4D50690020D2A3 /* neutral.plist */; };
+		57A68FE01E4D510A0020D2A3 /* rootColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FDF1E4D510A0020D2A3 /* rootColor.plist */; };
+		57A68FE91E4D8E500020D2A3 /* CGRealTimeColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FE81E4D8E500020D2A3 /* CGRealTimeColorController.m */; };
+		57A68FED1E4D8E760020D2A3 /* CGCustomColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FEB1E4D8E760020D2A3 /* CGCustomColorController.m */; };
+		57A68FEE1E4D8E760020D2A3 /* CGCustomColorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A68FEC1E4D8E760020D2A3 /* CGCustomColorController.xib */; };
+		57A68FF11E4D8E9C0020D2A3 /* CGDetailColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FF01E4D8E9C0020D2A3 /* CGDetailColorController.m */; };
+		57A68FF41E4D8EB30020D2A3 /* CGColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FF31E4D8EB30020D2A3 /* CGColorViewController.m */; };
+		57A68FF71E4D97390020D2A3 /* ColorDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FF61E4D97390020D2A3 /* ColorDetectView.m */; };
+		57A68FFC1E4D97500020D2A3 /* UIView+AnimationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FF91E4D97500020D2A3 /* UIView+AnimationExtensions.m */; };
+		57A68FFD1E4D97500020D2A3 /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A68FFB1E4D97500020D2A3 /* UIView+Tools.m */; };
+		57A68FFF1E4D98D40020D2A3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A68FFE1E4D98D40020D2A3 /* CoreMedia.framework */; };
+		57A690011E4D98DD0020D2A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A690001E4D98DD0020D2A3 /* AVFoundation.framework */; };
+		57A690031E4D98E40020D2A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A690021E4D98E40020D2A3 /* QuartzCore.framework */; };
+		57A690051E4D98EC0020D2A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A690041E4D98EC0020D2A3 /* CoreGraphics.framework */; };
+		57A690071E4D98F40020D2A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A690061E4D98F40020D2A3 /* UIKit.framework */; };
+		57A690091E4D98FD0020D2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A690081E4D98FD0020D2A3 /* Foundation.framework */; };
 		57B213531E4C5D8A00B652F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B213521E4C5D8A00B652F3 /* main.m */; };
 		57B213561E4C5D8A00B652F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B213551E4C5D8A00B652F3 /* AppDelegate.m */; };
 		57B2135E1E4C5D8A00B652F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B2135D1E4C5D8A00B652F3 /* Assets.xcassets */; };
@@ -36,6 +58,7 @@
 		57B213C71E4C611700B652F3 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B213C61E4C611700B652F3 /* UIBarButtonItem+Extension.m */; };
 		57B213CA1E4C612200B652F3 /* UIView+PBSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B213C91E4C612200B652F3 /* UIView+PBSExtension.m */; };
 		57B213CD1E4C615600B652F3 /* UIImage+PBSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B213CC1E4C615600B652F3 /* UIImage+PBSExtension.m */; };
+		ADEB34279F499E4ACC825397 /* libPods-ColorGuideApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899102EA04D2EDED5134123C /* libPods-ColorGuideApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +79,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4E699E005D18395ECE9536 /* Pods-ColorGuideApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorGuideApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorGuideApp/Pods-ColorGuideApp.release.xcconfig"; sourceTree = "<group>"; };
+		3CC22072E1929E38F850AF67 /* Pods-ColorGuideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorGuideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorGuideApp/Pods-ColorGuideApp.debug.xcconfig"; sourceTree = "<group>"; };
+		57A68FCF1E4D50260020D2A3 /* blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blue.plist; sourceTree = "<group>"; };
+		57A68FD11E4D50340020D2A3 /* orange.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = orange.plist; sourceTree = "<group>"; };
+		57A68FD31E4D503C0020D2A3 /* purple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = purple.plist; sourceTree = "<group>"; };
+		57A68FD41E4D503C0020D2A3 /* red.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = red.plist; sourceTree = "<group>"; };
+		57A68FD71E4D50490020D2A3 /* yellow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = yellow.plist; sourceTree = "<group>"; };
+		57A68FD91E4D50550020D2A3 /* green.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = green.plist; sourceTree = "<group>"; };
+		57A68FDB1E4D50690020D2A3 /* neutral.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = neutral.plist; sourceTree = "<group>"; };
+		57A68FDF1E4D510A0020D2A3 /* rootColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rootColor.plist; sourceTree = "<group>"; };
+		57A68FE71E4D8E500020D2A3 /* CGRealTimeColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRealTimeColorController.h; sourceTree = "<group>"; };
+		57A68FE81E4D8E500020D2A3 /* CGRealTimeColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRealTimeColorController.m; sourceTree = "<group>"; };
+		57A68FEA1E4D8E760020D2A3 /* CGCustomColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomColorController.h; sourceTree = "<group>"; };
+		57A68FEB1E4D8E760020D2A3 /* CGCustomColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCustomColorController.m; sourceTree = "<group>"; };
+		57A68FEC1E4D8E760020D2A3 /* CGCustomColorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGCustomColorController.xib; sourceTree = "<group>"; };
+		57A68FEF1E4D8E9C0020D2A3 /* CGDetailColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDetailColorController.h; sourceTree = "<group>"; };
+		57A68FF01E4D8E9C0020D2A3 /* CGDetailColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDetailColorController.m; sourceTree = "<group>"; };
+		57A68FF21E4D8EB30020D2A3 /* CGColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGColorViewController.h; sourceTree = "<group>"; };
+		57A68FF31E4D8EB30020D2A3 /* CGColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGColorViewController.m; sourceTree = "<group>"; };
+		57A68FF51E4D97390020D2A3 /* ColorDetectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetectView.h; sourceTree = "<group>"; };
+		57A68FF61E4D97390020D2A3 /* ColorDetectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetectView.m; sourceTree = "<group>"; };
+		57A68FF81E4D97500020D2A3 /* UIView+AnimationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationExtensions.h"; sourceTree = "<group>"; };
+		57A68FF91E4D97500020D2A3 /* UIView+AnimationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationExtensions.m"; sourceTree = "<group>"; };
+		57A68FFA1E4D97500020D2A3 /* UIView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tools.h"; sourceTree = "<group>"; };
+		57A68FFB1E4D97500020D2A3 /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = "<group>"; };
+		57A68FFE1E4D98D40020D2A3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		57A690001E4D98DD0020D2A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57A690021E4D98E40020D2A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57A690041E4D98EC0020D2A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57A690061E4D98F40020D2A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57A690081E4D98FD0020D2A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57B2134E1E4C5D8900B652F3 /* ColorGuideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGuideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B213521E4C5D8A00B652F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57B213541E4C5D8A00B652F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +156,7 @@
 		57B213CB1E4C615600B652F3 /* UIImage+PBSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PBSExtension.h"; sourceTree = "<group>"; };
 		57B213CC1E4C615600B652F3 /* UIImage+PBSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PBSExtension.m"; sourceTree = "<group>"; };
 		57B213CE1E4C619F00B652F3 /* ColorGuideAppPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGuideAppPrefixHeader.pch; sourceTree = "<group>"; };
+		899102EA04D2EDED5134123C /* libPods-ColorGuideApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorGuideApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +164,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A690091E4D98FD0020D2A3 /* Foundation.framework in Frameworks */,
+				57A690071E4D98F40020D2A3 /* UIKit.framework in Frameworks */,
+				57A690051E4D98EC0020D2A3 /* CoreGraphics.framework in Frameworks */,
+				57A690031E4D98E40020D2A3 /* QuartzCore.framework in Frameworks */,
+				57A690011E4D98DD0020D2A3 /* AVFoundation.framework in Frameworks */,
+				57A68FFF1E4D98D40020D2A3 /* CoreMedia.framework in Frameworks */,
+				ADEB34279F499E4ACC825397 /* libPods-ColorGuideApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +191,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084E10DBCB540988BB206B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A690081E4D98FD0020D2A3 /* Foundation.framework */,
+				57A690061E4D98F40020D2A3 /* UIKit.framework */,
+				57A690041E4D98EC0020D2A3 /* CoreGraphics.framework */,
+				57A690021E4D98E40020D2A3 /* QuartzCore.framework */,
+				57A690001E4D98DD0020D2A3 /* AVFoundation.framework */,
+				57A68FFE1E4D98D40020D2A3 /* CoreMedia.framework */,
+				899102EA04D2EDED5134123C /* libPods-ColorGuideApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A68FCE1E4D50050020D2A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				57A68FDF1E4D510A0020D2A3 /* rootColor.plist */,
+				57A68FDB1E4D50690020D2A3 /* neutral.plist */,
+				57A68FD91E4D50550020D2A3 /* green.plist */,
+				57A68FD71E4D50490020D2A3 /* yellow.plist */,
+				57A68FD31E4D503C0020D2A3 /* purple.plist */,
+				57A68FD41E4D503C0020D2A3 /* red.plist */,
+				57A68FD11E4D50340020D2A3 /* orange.plist */,
+				57A68FCF1E4D50260020D2A3 /* blue.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		57B213451E4C5D8900B652F3 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +227,8 @@
 				57B2136A1E4C5D8A00B652F3 /* ColorGuideAppTests */,
 				57B213751E4C5D8A00B652F3 /* ColorGuideAppUITests */,
 				57B2134F1E4C5D8900B652F3 /* Products */,
+				FCBD2CEF7A791F2C2AE14BFB /* Pods */,
+				084E10DBCB540988BB206B0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +245,7 @@
 		57B213501E4C5D8A00B652F3 /* ColorGuideApp */ = {
 			isa = PBXGroup;
 			children = (
+				57A68FCE1E4D50050020D2A3 /* Resource */,
 				57B213841E4C5EE100B652F3 /* Classes */,
 				57B213541E4C5D8A00B652F3 /* AppDelegate.h */,
 				57B213551E4C5D8A00B652F3 /* AppDelegate.m */,
@@ -217,6 +311,15 @@
 				57B213871E4C5EE100B652F3 /* placeholder */,
 				57B213B91E4C602400B652F3 /* CGHomeViewController.h */,
 				57B213BA1E4C602400B652F3 /* CGHomeViewController.m */,
+				57A68FE71E4D8E500020D2A3 /* CGRealTimeColorController.h */,
+				57A68FE81E4D8E500020D2A3 /* CGRealTimeColorController.m */,
+				57A68FEA1E4D8E760020D2A3 /* CGCustomColorController.h */,
+				57A68FEB1E4D8E760020D2A3 /* CGCustomColorController.m */,
+				57A68FEC1E4D8E760020D2A3 /* CGCustomColorController.xib */,
+				57A68FEF1E4D8E9C0020D2A3 /* CGDetailColorController.h */,
+				57A68FF01E4D8E9C0020D2A3 /* CGDetailColorController.m */,
+				57A68FF21E4D8EB30020D2A3 /* CGColorViewController.h */,
+				57A68FF31E4D8EB30020D2A3 /* CGColorViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +335,8 @@
 		57B2138A1E4C5EE100B652F3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				57A68FF51E4D97390020D2A3 /* ColorDetectView.h */,
+				57A68FF61E4D97390020D2A3 /* ColorDetectView.m */,
 				57B2138B1E4C5EE100B652F3 /* placeholder */,
 			);
 			path = View;
@@ -252,6 +357,10 @@
 		57B2138D1E4C5EE100B652F3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				57A68FF81E4D97500020D2A3 /* UIView+AnimationExtensions.h */,
+				57A68FF91E4D97500020D2A3 /* UIView+AnimationExtensions.m */,
+				57A68FFA1E4D97500020D2A3 /* UIView+Tools.h */,
+				57A68FFB1E4D97500020D2A3 /* UIView+Tools.m */,
 				57B213CB1E4C615600B652F3 /* UIImage+PBSExtension.h */,
 				57B213CC1E4C615600B652F3 /* UIImage+PBSExtension.m */,
 				57B213C81E4C612200B652F3 /* UIView+PBSExtension.h */,
@@ -373,6 +482,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FCBD2CEF7A791F2C2AE14BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC22072E1929E38F850AF67 /* Pods-ColorGuideApp.debug.xcconfig */,
+				1F4E699E005D18395ECE9536 /* Pods-ColorGuideApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -380,9 +498,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57B2137B1E4C5D8A00B652F3 /* Build configuration list for PBXNativeTarget "ColorGuideApp" */;
 			buildPhases = (
+				4A83011E8899443CA4C5F5BA /* [CP] Check Pods Manifest.lock */,
 				57B2134A1E4C5D8900B652F3 /* Sources */,
 				57B2134B1E4C5D8900B652F3 /* Frameworks */,
 				57B2134C1E4C5D8900B652F3 /* Resources */,
+				3A4CCD09C4E8897C59052EE5 /* [CP] Embed Pods Frameworks */,
+				05B93683925EA17FDAACF0F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -479,19 +600,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A68FDA1E4D50550020D2A3 /* green.plist in Resources */,
+				57A68FD21E4D50340020D2A3 /* orange.plist in Resources */,
 				57B213AF1E4C5EE100B652F3 /* placeholder in Resources */,
+				57A68FD61E4D503C0020D2A3 /* red.plist in Resources */,
 				57B213A81E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213B01E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213B11E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213A51E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213A91E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213611E4C5D8A00B652F3 /* LaunchScreen.storyboard in Resources */,
+				57A68FD01E4D50260020D2A3 /* blue.plist in Resources */,
+				57A68FD81E4D50490020D2A3 /* yellow.plist in Resources */,
 				57B213A61E4C5EE100B652F3 /* placeholder in Resources */,
+				57A68FEE1E4D8E760020D2A3 /* CGCustomColorController.xib in Resources */,
 				57B213A71E4C5EE100B652F3 /* placeholder in Resources */,
+				57A68FDC1E4D50690020D2A3 /* neutral.plist in Resources */,
 				57B213AE1E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213AB1E4C5EE100B652F3 /* placeholder in Resources */,
+				57A68FD51E4D503C0020D2A3 /* purple.plist in Resources */,
 				57B213AA1E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213AC1E4C5EE100B652F3 /* placeholder in Resources */,
+				57A68FE01E4D510A0020D2A3 /* rootColor.plist in Resources */,
 				57B2135E1E4C5D8A00B652F3 /* Assets.xcassets in Resources */,
 				57B213B21E4C5EE100B652F3 /* placeholder in Resources */,
 				57B213AD1E4C5EE100B652F3 /* placeholder in Resources */,
@@ -514,22 +644,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05B93683925EA17FDAACF0F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorGuideApp/Pods-ColorGuideApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4CCD09C4E8897C59052EE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorGuideApp/Pods-ColorGuideApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A83011E8899443CA4C5F5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57B2134A1E4C5D8900B652F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				57B213561E4C5D8A00B652F3 /* AppDelegate.m in Sources */,
+				57A68FF41E4D8EB30020D2A3 /* CGColorViewController.m in Sources */,
 				57B213B81E4C5FA500B652F3 /* CGTabBarController.m in Sources */,
+				57A68FED1E4D8E760020D2A3 /* CGCustomColorController.m in Sources */,
 				57B213B51E4C5F8200B652F3 /* CGNavigationController.m in Sources */,
+				57A68FFC1E4D97500020D2A3 /* UIView+AnimationExtensions.m in Sources */,
+				57A68FE91E4D8E500020D2A3 /* CGRealTimeColorController.m in Sources */,
 				57B213BB1E4C602400B652F3 /* CGHomeViewController.m in Sources */,
 				57B213BE1E4C603700B652F3 /* CGMessagesViewController.m in Sources */,
 				57B213C41E4C608A00B652F3 /* CGBaseViewController.m in Sources */,
+				57A68FFD1E4D97500020D2A3 /* UIView+Tools.m in Sources */,
 				57B213C71E4C611700B652F3 /* UIBarButtonItem+Extension.m in Sources */,
 				57B213531E4C5D8A00B652F3 /* main.m in Sources */,
 				57B213CA1E4C612200B652F3 /* UIView+PBSExtension.m in Sources */,
 				57B213C11E4C604700B652F3 /* CGMeViewController.m in Sources */,
+				57A68FF11E4D8E9C0020D2A3 /* CGDetailColorController.m in Sources */,
 				57B213CD1E4C615600B652F3 /* UIImage+PBSExtension.m in Sources */,
+				57A68FF71E4D97390020D2A3 /* ColorDetectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +851,7 @@
 		};
 		57B2137C1E4C5D8A00B652F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC22072E1929E38F850AF67 /* Pods-ColorGuideApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ColorGuideApp/ColorGuideAppPrefixHeader.pch";
@@ -679,6 +865,7 @@
 		};
 		57B2137D1E4C5D8A00B652F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4E699E005D18395ECE9536 /* Pods-ColorGuideApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ColorGuideApp/ColorGuideAppPrefixHeader.pch";
@@ -755,6 +942,7 @@
 				57B2137D1E4C5D8A00B652F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B2137E1E4C5D8A00B652F3 /* Build configuration list for PBXNativeTarget "ColorGuideAppTests" */ = {
 			isa = XCConfigurationList;
@@ -763,6 +951,7 @@
 				57B213801E4C5D8A00B652F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B213811E4C5D8A00B652F3 /* Build configuration list for PBXNativeTarget "ColorGuideAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -771,6 +960,7 @@
 				57B213831E4C5D8A00B652F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
