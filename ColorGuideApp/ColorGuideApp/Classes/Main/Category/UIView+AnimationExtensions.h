@@ -9,7 +9,8 @@
 //  binary, for any purpose, commercial or non-commercial, and by any means.
 //
 
-
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 /**
  @brief Direction of flip animation.
  */
